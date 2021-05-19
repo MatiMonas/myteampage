@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+:root{
+    --roboto: 'Roboto', sans-serif;
+    --serif: 'PT serif', serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
