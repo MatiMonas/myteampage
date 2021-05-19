@@ -11,3 +11,10 @@
     --poppins: 'Poppins', sans-serif;
 }
 
+.tipo-poppins{
+    font-family: var(--poppins);
+}
+
+.PT-serif{
+    font-family: var(--serif);
+}
