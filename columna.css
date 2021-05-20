@@ -118,13 +118,15 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
         line-height: 21px;
     }
 
+    .img-job-container{
+        display: flex;
+    }
     .job{
         font-size: 10px;
         writing-mode: vertical-lr;
+        font-weight: 400;       
         
     }
 
-    .name{
-
-    }
+   
 }
