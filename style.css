@@ -1,14 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     box-sizing: border-box
+}
+
+html{
+    margin-right: 20px;
 }
 
 :root{
     --roboto: 'Roboto', sans-serif;
     --serif: 'PT serif', serif;
     --poppins: 'Poppins', sans-serif;
+    --montserrat:'Montserrat', sans-serif;
 }
 
 .tipo-poppins{
@@ -17,4 +22,8 @@
 
 .PT-serif{
     font-family: var(--serif);
+}
+
+.pie{
+    font-family: var(--montserrat);
 }

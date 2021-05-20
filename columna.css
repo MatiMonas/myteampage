@@ -96,6 +96,7 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
     .col-xs-2{width: 16.66666667% ;}
     .col-xs-1{width: 8.33333333%;}
 
+   
 
     .imagen{
         max-width: 138.72;
@@ -105,28 +106,65 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
     .titulo{
         font-size: 36px;
         letter-spacing: -0.045em;
-        font-weight: bold;
+        font-weight: 700;
+        margin:70px 0px 0px 12px;
     }
 
     .subtitulo{
         font-size: 18px;
         font-weight: 600;
+        margin: 38px 0px 0px 12px
     }
 
     .description{
-        font: size 14px;
+        font-size: 14px;
         line-height: 21px;
+        margin: 10px 0px 50px 12px;
+       
+
+    }
+
+    .give-margin{
+        margin-top: 30px;
     }
 
     .img-job-container{
         display: flex;
     }
+    
     .job{
-        font-size: 10px;
+        font-family: "PT Serif";
+        font-style: normal;
+        font-weight:100;
+        font-size: 9px;
         writing-mode: vertical-lr;
-        font-weight: 400;       
+        margin-left: 6.28px;       
         
     }
 
+    .name{
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 10px;
+        font-weight: 700;
+    }
    
+    .move-down{
+        position: absolute;
+        margin-top: 48px;
+        
+    }
+
+    .pie{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-top: 134px;
+        margin-bottom: 24px;
+        font-weight: 500;
+        font-size: 14px;
+        font-style:normal
+    }
 }
