@@ -49,6 +49,17 @@ PANTALA DE ESCRITORIO GRANDE - LARGE (LG)
         flex-direction: column;
         margin-top:20px
     }
+    
+    .contenedor-lg{
+        position:relative;
+        margin: auto;
+        margin-top: 96px;
+        width: 68%;
+        height: auto;  
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 
     .imagen{
         max-width: 238px;
@@ -61,6 +72,9 @@ PANTALA DE ESCRITORIO GRANDE - LARGE (LG)
         align-items: flex-end;
         justify-content: center;
         margin-left: 24px;
+        font-size: 36px;
+        font-weight: bold;
+
     }
    
     .subtitulo{
@@ -74,6 +88,54 @@ PANTALA DE ESCRITORIO GRANDE - LARGE (LG)
         font-size:18px;
         font-weight: 400;
         padding: 0;
+    }
+    .fila-lg{
+        position:relative;
+        margin: auto;
+        width: 100%;
+        height: auto; 
+         /*para evitar otros elementos se coloquen dentro de una fila a causa de que las columnas estan flotando, utilizo los siguientes comandos  */
+        
+    }
+
+    .img-job-container{
+        display: flex;
+    }
+
+    .job{
+        font-family: "PT Serif";
+        font-style: normal;
+        font-weight:400;
+        font-size: 12px;
+        writing-mode: vertical-lr;
+        margin-left: 6.28px;  
+     }
+
+     .name{
+        font-size: 18px;
+        line-height: 21px;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+    
+    .move-down-lg{
+        margin-top:100px
+    }
+
+    .pie{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: 0;
+        margin-top: 40px;
+        margin-bottom: 24px;
+        font-weight: normal;
+        font-size: 14px;
+        font-style:normal;
+        text-align: center;
+
     }
 
 }
@@ -98,6 +160,9 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
     .col-xs-2{width: 16.66666667% ;}
     .col-xs-1{width: 8.33333333%;}
 
+    html{
+        margin-right: 10px;
+    }
    
 
     .imagen{
@@ -154,7 +219,7 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
         font-weight: 600;
     }
    
-    .move-down{
+    .move-down-xs{
         position:relative;
         margin-top: 48px;
         
@@ -168,6 +233,7 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
         position: relative;
         bottom: 0;
         margin-top: 40px;
+        margin-bottom: 24px;
         font-weight: 500;
         font-size: 14px;
         font-style:normal;
