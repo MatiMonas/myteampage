@@ -176,9 +176,103 @@ PANTALA DE TABLET - SMALL (SM)
     .col-sm-2{width: 16.66666667% ;}
     .col-sm-1{width: 8.33333333%;}
 
+    .contenedor-texto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contenedor-descripcion{
+        width: 95%;       
+        margin-top: 100px;
+    }
+
+    
+    .contenedor-lg{
+        position: relative;
+        margin: auto;
+        margin-top: 0px;
+        width: 81%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        
+        
+    }
+
     .imagen{
-        max-width: 138.72px;
+        max-width: 130px;
         width: 100%;
+    }
+    
+    .titulo{        
+        font-size: 36px;
+        letter-spacing: -0.045em;
+        font-weight: 700;
+        margin: 69px 0px 37px -18px;
+        padding: 0px 0.88rem;
+        text-align: end;
+        width: 100%;
+    }
+    
+
+    .subtitulo{        
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0px 0px 0px 0px;
+        padding:0px 0.88rem
+    }
+
+    .description{        
+        font-size: 14px;
+        line-height: 21px;
+        margin: 10px 0px 50px 0px;
+        padding: 0px 0.88rem;
+        font-weight: 400;
+    }
+
+    .img-job-container{
+        display: flex;
+    }
+    
+    .job{
+        font-family: "PT Serif";
+        font-style: normal;
+        font-weight:400;
+        font-size: 12px;
+        writing-mode: vertical-lr;
+        margin-left: 6.28px;       
+        
+    }
+
+    .name{
+        font-size: 16px;
+        line-height: 21px;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+   
+
+    .move-down-lg{
+        margin-top:50px
+    }
+
+
+    .pie{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: 0;
+        margin-top: 40px;
+        margin-bottom: 24px;
+        font-weight: 500;
+        font-size: 14px;
+        font-style:normal;
+        text-align: center;
     }
 }
 
