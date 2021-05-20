@@ -1,12 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     box-sizing: border-box
 }
 
 html{
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 :root{

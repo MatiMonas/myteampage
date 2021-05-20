@@ -38,6 +38,17 @@ PANTALA DE ESCRITORIO GRANDE - LARGE (LG)
     .col-lg-2{width: 16.66666667% ;}
     .col-lg-1{width: 8.33333333%;}
 
+    .contenedor-texto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-descripcion{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 /*======================================
@@ -104,22 +115,28 @@ PANTALA DE CELULAR - EXTRASMALL (xs)
     }
 
     .titulo{
+        
         font-size: 36px;
         letter-spacing: -0.045em;
         font-weight: 700;
-        margin:70px 0px 0px 12px;
+        margin:70px 0px 38px 0px;
+        padding: 0px 0.88rem;
     }
 
     .subtitulo{
+        
         font-size: 18px;
         font-weight: 600;
-        margin: 38px 0px 0px 12px
+        margin: 0px 0px 0px 0px;
+        padding:0px 0.88rem
     }
 
     .description{
+        
         font-size: 14px;
         line-height: 21px;
-        margin: 10px 0px 50px 12px;
+        margin: 10px 0px 50px 0px;
+        padding: 0px 0.88rem;
        
 
     }
